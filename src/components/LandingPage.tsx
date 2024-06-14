@@ -1,7 +1,9 @@
+
+
 /**
- * v0 by Vercel.
+ * v0 por Vercel.
  * @see https://v0.dev/t/WwXEgTCwuqt
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ * Documentación: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -16,33 +18,33 @@ export default function LandingPage() {
         </div>
         <nav className="flex items-center gap-4">
           <Link href="#" className="hover:underline" prefetch={false}>
-            Home
+            Inicio
           </Link>
           <Link href="#" className="hover:underline" prefetch={false}>
-            About
+            Acerca de
           </Link>
           <Link href="#" className="hover:underline" prefetch={false}>
-            File Upload
+            Subir Archivos
           </Link>
           <Link href="#" className="hover:underline" prefetch={false}>
-            Carbon Footprint
+            Huella de Carbono
           </Link>
         </nav>
       </header>
       <main className="flex-1 bg-gray-100 py-12 px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
-            <h1 className="text-3xl font-bold text-gray-900 ">Manage Your Files & Carbon Footprint</h1>
+            <h1 className="text-3xl font-bold text-gray-900 ">Gestiona Tus Archivos y Huella de Carbono</h1>
             <p className="text-gray-700 ">
-              Upload your files and track your carbon footprint with our comprehensive platform.
+              Sube tus archivos y rastrea tu huella de carbono con nuestra plataforma integral.
             </p>
             <div className="flex gap-4">
-              <Button>Upload Files</Button>
-              <Button variant="outline">Calculate Footprint</Button>
+              <Button>Subir Archivos</Button>
+              <Button variant="outline">Calcular Huella</Button>
             </div>
           </div>
           <div>
-            <img src="/images/piecito.webp" alt="File Upload & Carbon Footprint" className="w-full h-auto rounded-lg" />
+            <img src="/images/piecito.webp" alt="Subir Archivos y Huella de Carbono" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </main>
@@ -50,43 +52,43 @@ export default function LandingPage() {
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">
           <div className="space-y-2">
             <UploadIcon className="w-8 h-8" />
-            <h3 className="text-xl font-semibold">File Upload</h3>
-            <p className="text-gray-400">Easily upload and manage your files in our secure platform.</p>
+            <h3 className="text-xl font-semibold">Subir Archivos</h3>
+            <p className="text-gray-400">Sube y gestiona tus archivos fácilmente en nuestra plataforma segura.</p>
           </div>
           <div className="space-y-2">
             <TrendingUpIcon className="w-8 h-8" />
-            <h3 className="text-xl font-semibold">Carbon Footprint</h3>
-            <p className="text-gray-400">Track your carbon footprint based on the files you have uploaded.</p>
+            <h3 className="text-xl font-semibold">Huella de Carbono</h3>
+            <p className="text-gray-400">Rastrea tu huella de carbono basada en los archivos que has subido.</p>
           </div>
           <div className="space-y-2">
             <RecycleIcon className="w-8 h-8" />
-            <h3 className="text-xl font-semibold">Sustainable Practices</h3>
-            <p className="text-gray-400">Promote environmentally friendly practices with our digital solutions.</p>
+            <h3 className="text-xl font-semibold">Prácticas Sostenibles</h3>
+            <p className="text-gray-400">Promueve prácticas amigables con el medio ambiente con nuestras soluciones digitales.</p>
           </div>
         </div>
       </section>
       <section className="bg-gray-100 py-12 px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           <div>
-            <img src="/placeholder.svg" alt="File Upload" className="w-full h-auto rounded-lg" />
+            <img src="/images/personita.webp" alt="Subir Archivos" className="w-full h-auto rounded-lg" />
           </div>
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold text-gray-900 ">Effortless File Uploads</h2>
+            <h2 className="text-2xl font-bold text-gray-900 ">Cargas de Archivos Sin Esfuerzo</h2>
             <p className="text-gray-700 ">
-              Our platform provides a seamless file upload experience, allowing you to manage your documents with ease.
+              Nuestra plataforma proporciona una experiencia de subida de archivos sin problemas, permitiéndote gestionar tus documentos con facilidad.
             </p>
             <ul className="space-y-2">
               <li className="flex items-start gap-2">
                 <CheckIcon className="w-5 h-5 text-green-500" />
-                <span>Drag and drop file uploads</span>
+                <span>Subidas de archivos por arrastrar y soltar</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckIcon className="w-5 h-5 text-green-500" />
-                <span>Secure file storage and sharing</span>
+                <span>Almacenamiento y compartición de archivos seguros</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckIcon className="w-5 h-5 text-green-500" />
-                <span>Detailed file management tools</span>
+                <span>Herramientas detalladas de gestión de archivos</span>
               </li>
             </ul>
           </div>
@@ -95,28 +97,27 @@ export default function LandingPage() {
       <section className="bg-gray-900 text-white py-12 px-6">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
-            <h2 className="text-2xl font-bold">Track Your Carbon Footprint</h2>
+            <h2 className="text-2xl font-bold">Rastrea Tu Huella de Carbono</h2>
             <p className="text-gray-400">
-              Our platform calculates your carbon footprint based on the files you have uploaded, helping you make
-              informed decisions to reduce your environmental impact.
+              Nuestra plataforma calcula tu huella de carbono basada en los archivos que has subido, ayudándote a tomar decisiones informadas para reducir tu impacto ambiental.
             </p>
             <ul className="space-y-2">
               <li className="flex items-start gap-2">
                 <CheckIcon className="w-5 h-5 text-green-500" />
-                <span>Detailed carbon footprint analysis</span>
+                <span>Análisis detallado de huella de carbono</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckIcon className="w-5 h-5 text-green-500" />
-                <span>Personalized recommendations for improvement</span>
+                <span>Recomendaciones personalizadas para la mejora</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckIcon className="w-5 h-5 text-green-500" />
-                <span>Tracking and reporting tools</span>
+                <span>Herramientas de rastreo e informes</span>
               </li>
             </ul>
           </div>
           <div>
-            <img src="/placeholder.svg" alt="Carbon Footprint Tracking" className="w-full h-auto rounded-lg" />
+            <img src="/images/planta.webp" alt="Rastreo de Huella de Carbono" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </section>
@@ -125,33 +126,33 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center text-center space-y-4">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Centralize and Optimize Your File Uploads
+                  Centraliza y Optimiza Tus Cargas de Archivos
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Easily upload files, track your carbon footprint, and manage your data all in one place.
+                  Sube archivos fácilmente, rastrea tu huella de carbono y gestiona tus datos todo en un solo lugar.
                 </p>
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
               <div className="grid gap-1">
                 <UploadIcon className="h-8 w-8 text-gray-900 " />
-                <h3 className="text-lg font-bold">File Uploads</h3>
+                <h3 className="text-lg font-bold">Cargas de Archivos</h3>
                 <p className="text-sm text-gray-500">
-                  Securely upload and manage your files in one central location.
+                  Sube y gestiona tus archivos de manera segura en una ubicación central.
                 </p>
               </div>
               <div className="grid gap-1">
                 <CogIcon className="h-8 w-8 text-gray-900" />
-                <h3 className="text-lg font-bold">Carbon Footprint Tracking</h3>
+                <h3 className="text-lg font-bold">Rastreo de Huella de Carbono</h3>
                 <p className="text-sm text-gray-500">
-                  Understand the environmental impact of your file storage and reduce your carbon footprint.
+                  Comprende el impacto ambiental de tu almacenamiento de archivos y reduce tu huella de carbono.
                 </p>
               </div>
               <div className="grid gap-1">
                 <CommandIcon className="h-8 w-8 text-gray-900" />
-                <h3 className="text-lg font-bold">Centralized File Management</h3>
+                <h3 className="text-lg font-bold">Gestión Centralizada de Archivos</h3>
                 <p className="text-sm text-gray-500">
-                  Manage all your files in one place, with easy access and organization.
+                  Gestiona todos tus archivos en un solo lugar, con fácil acceso y organización.
                 </p>
               </div>
             </div>
@@ -160,18 +161,20 @@ export default function LandingPage() {
       <footer className="bg-gray-900 text-white py-6 px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <UploadIcon className="w-6 h-6" />
+            <UploadIcon className="
+
+w-6 h-6" />
             <span className="text-lg font-semibold">GreenStorage</span>
           </div>
           <nav className="flex items-center gap-4">
             <Link href="#" className="hover:underline" prefetch={false}>
-              Privacy
+              Privacidad
             </Link>
             <Link href="#" className="hover:underline" prefetch={false}>
-              Terms
+              Términos
             </Link>
             <Link href="#" className="hover:underline" prefetch={false}>
-              Contact
+              Contacto
             </Link>
           </nav>
         </div>
