@@ -42,7 +42,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div>
-            <img src="/placeholder.svg" alt="File Upload & Carbon Footprint" className="w-full h-auto rounded-lg" />
+            <img src="/images/piecito.webp" alt="File Upload & Carbon Footprint" className="w-full h-auto rounded-lg" />
           </div>
         </div>
       </main>
@@ -120,6 +120,43 @@ export default function LandingPage() {
           </div>
         </div>
       </section>
+      <section className="bg-gray-100 py-12 px-6">
+          <div className="container px-4 md:px-6 space-y-12 mx-auto">
+            <div className="flex flex-col items-center justify-center text-center space-y-4">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Centralize and Optimize Your File Uploads
+                </h2>
+                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Easily upload files, track your carbon footprint, and manage your data all in one place.
+                </p>
+              </div>
+            </div>
+            <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3">
+              <div className="grid gap-1">
+                <UploadIcon className="h-8 w-8 text-gray-900 " />
+                <h3 className="text-lg font-bold">File Uploads</h3>
+                <p className="text-sm text-gray-500">
+                  Securely upload and manage your files in one central location.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <CogIcon className="h-8 w-8 text-gray-900" />
+                <h3 className="text-lg font-bold">Carbon Footprint Tracking</h3>
+                <p className="text-sm text-gray-500">
+                  Understand the environmental impact of your file storage and reduce your carbon footprint.
+                </p>
+              </div>
+              <div className="grid gap-1">
+                <CommandIcon className="h-8 w-8 text-gray-900" />
+                <h3 className="text-lg font-bold">Centralized File Management</h3>
+                <p className="text-sm text-gray-500">
+                  Manage all your files in one place, with easy access and organization.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       <footer className="bg-gray-900 text-white py-6 px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -226,6 +263,58 @@ function UploadIcon(props: React.SVGProps<SVGSVGElement>) {
       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
       <polyline points="17 8 12 3 7 8" />
       <line x1="12" x2="12" y1="3" y2="15" />
+    </svg>
+  )
+}
+
+function CogIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" />
+      <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+      <path d="M12 2v2" />
+      <path d="M12 22v-2" />
+      <path d="m17 20.66-1-1.73" />
+      <path d="M11 10.27 7 3.34" />
+      <path d="m20.66 17-1.73-1" />
+      <path d="m3.34 7 1.73 1" />
+      <path d="M14 12h8" />
+      <path d="M2 12h2" />
+      <path d="m20.66 7-1.73 1" />
+      <path d="m3.34 17 1.73-1" />
+      <path d="m17 3.34-1 1.73" />
+      <path d="m11 13.73-4 6.93" />
+    </svg>
+  )
+}
+
+
+function CommandIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3" />
     </svg>
   )
 }
