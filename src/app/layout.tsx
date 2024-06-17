@@ -5,6 +5,15 @@ import { Libre_Franklin } from 'next/font/google'
 import { Chivo } from 'next/font/google'
 import './globals.css'
 
+
+export const metadata = {
+  openGraph: {
+    title: 'GreenStorage',
+    description: 'Almacenamiento verde en la nube',
+    images: '/opengraph-image.jpg',
+  },
+}
+
 const libre_franklin = Libre_Franklin({
   subsets: ['latin'],
   display: 'swap',
