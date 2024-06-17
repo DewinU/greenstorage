@@ -4,12 +4,13 @@
 import { Libre_Franklin } from 'next/font/google'
 import { Chivo } from 'next/font/google'
 import './globals.css'
+import { Metadata } from 'next'
 
 
-export const metadata = {
+export const metadata: Metadata = {
+  title: 'GreenStorage',
+  description: 'Almacenamiento verde en la nube',
   openGraph: {
-    title: 'GreenStorage',
-    description: 'Almacenamiento verde en la nube',
     images: '/opengraph-image.jpg',
   },
 }
