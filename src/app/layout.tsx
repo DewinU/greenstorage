@@ -8,6 +8,7 @@ import { Metadata } from 'next'
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://greenstorage.vercel.app/'),
   title: 'GreenStorage',
   description: 'Almacenamiento verde en la nube',
   openGraph: {
